@@ -1,16 +1,7 @@
 import axios from 'axios';
 import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-import {
-  FormLabel,
-  FormInput,
-  Button,
-  FormValidationMessage
-} from 'react-native-elements'
+import { StyleSheet, Text, View } from 'react-native';
+import { FormLabel, FormInput, Button, FormValidationMessage } from 'react-native-elements';
 
 const ROOT_URL = 'https://t57mokqay8.execute-api.us-west-2.amazonaws.com/dev/';
 

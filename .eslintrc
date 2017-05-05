@@ -14,6 +14,7 @@
     "no-var": 0,
     "max-len": 0,
     "vars-on-top": 0,
+    "prefer-const": 0,
   },
   "globals": {
     "fetch": true,

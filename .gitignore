@@ -3,3 +3,4 @@ node_modules/**/*
 npm-debug.*
 service_account.json
 twilio.js
+firebase_config.js

@@ -6,9 +6,12 @@
   "private": true,
   "main": "main.js",
   "dependencies": {
+    "axios": "^0.16.1",
     "expo": "16.0.0",
+    "firebase": "^3.9.0",
     "react": "16.0.0-alpha.6",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz",
+    "react-native-elements": "^0.11.2"
   },
   "devDependencies": {
     "eslint-config-rallycoding": "^3.2.0"

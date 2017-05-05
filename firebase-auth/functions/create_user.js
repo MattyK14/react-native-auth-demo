@@ -16,5 +16,4 @@ module.exports = (request, response) => {
     .catch(error => response.status(422).send({ error }));
 
   //  Confirm account was made with the user
-  //(709) 701-0730
 };

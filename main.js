@@ -4,7 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import firebase from 'firebase';
 import SignUpForm from './components/SignUpForm';
 import SignInForm from './components/SignInForm';
-import config from './firebase_config';
+const config = require('./firebase_config');
 
 class App extends React.Component {
   componentDidMount() {

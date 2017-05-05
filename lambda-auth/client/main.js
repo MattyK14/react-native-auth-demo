@@ -1,10 +1,6 @@
-import Exponent from 'exponent';
+import Expo from 'expo';
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { StyleSheet, View, } from 'react-native';
 import SignInForm from './components/SignInForm';
 import SignUpForm from './components/SignUpForm';
 
@@ -30,4 +26,4 @@ const styles = StyleSheet.create({
   },
 });
 
-Exponent.registerRootComponent(App);
+Expo.registerRootComponent(App);

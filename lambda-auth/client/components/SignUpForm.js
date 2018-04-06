@@ -7,7 +7,7 @@ const ROOT_URL = 'https://t57mokqay8.execute-api.us-west-2.amazonaws.com/dev';
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
 export default class SignUpForm extends Component {
-    state = { phone: '8056021004', email: 'ste.grider@gmail.com', error: '' };
+    state = { phone: '1234567890', email: 'matt@someEmail.com', error: '' };
 
     handleSubmit = () => {
       const { email, phone } = this.state;
